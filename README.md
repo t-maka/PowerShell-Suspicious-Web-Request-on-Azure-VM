@@ -23,6 +23,7 @@ DeviceProcessEvents
 | where InitiatingProcessCommandLine contains "Invoke-WebRequest"
 | order by TimeGenerated
 ```
+![KQL results](https://github.com/user-attachments/assets/da48fe2c-2d22-4050-8b09-c8e1ce9ec615)
 
 ---
 
@@ -33,6 +34,7 @@ DeviceProcessEvents
 - **Impact**: Download of 3 scripts via 3 separate commands
 - 
 Once the alert rule triggered, Microsoft Sentinel automatically generated an incident and produced an investigation map based on the detected activity.
+![MS Sentinel Incident mapping](https://github.com/user-attachments/assets/6beb3aa2-ad04-4c68-bacd-e970e96b09ee)
 
 ---
 
@@ -69,7 +71,7 @@ Scripts were analyzed by the malware reverse engineering team. Here are their on
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | `📄 pwncrypt.ps1`       | Simulates ransomware: encrypts fake data on the user's desktop, drops ransom notes demanding Bitcoin.                          |
 | `📄 exfiltratedata.ps1` | Generates fake employee data, compresses it, and exfiltrates to an Azure Blob Storage container.                               |
-| `📄 eicar.ps1`          | Deploys the standard [EICAR test string](https://www.eicar.org/download-anti-malware-testfile/) to simulate malware detection. |
+| `📄 eicar.ps1`          | Deploys the standard to simulate malware detection.                                                                            |
 
 ---
 
