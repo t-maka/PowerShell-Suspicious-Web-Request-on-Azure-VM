@@ -1,4 +1,4 @@
-# 🚨  PowerShell-Suspicious-Web-Request-on-Azure-VM
+# 🧯  PowerShell-Suspicious-Web-Request-on-Azure-VM
 
 ## 🧩 Scenario Overview
 A suspicious use of PowerShell’s Invoke-WebRequest was detected on an Azure virtual machine (LabWill-vm-mde). The event triggered an alert in Microsoft Sentinel, indicating a potential malware infection via script downloads.
